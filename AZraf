@@ -1,6 +1,15 @@
 
-x = int(input "")
-if((x%2) == 0):
-    print("yuh")
+bill = int(input ("How much was your bill?"))
+tip = int(input ("How much would you like to tip?"))
+bill = float(bill)
+tip = float(tip)
+
+
+if bill == type(int):
+    
 else:
-    print("nah, i'd win")
+       print ("input a number please")
+
+print((bill*tip) + bill)
+
+
