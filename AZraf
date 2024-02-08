@@ -1,14 +1,34 @@
-
-bill = int(input ("How much was your bill?"))
-tip = int(input ("How much would you like to tip?"))
+bill = (input ("How much was your bill?"))
+tip = int(input ("How was the service? Bad, good or great?"))
 bill = float(bill)
-tip = float(tip)
 
 
-if bill == type(int):
+
+if tip == "bad":
+    print ("Oh no! Sorry about the service. WE will try our hardest next time.")
     
 else:
        print ("input a number please")
+
+
+if tip == "good":
+    print ("Oh no! Sorry about the service. WE will try our hardest next time.")
+    
+else:
+       print ("input a number please")
+
+
+
+if tip == "great":
+    print ("Excelent! As usual, .")
+    
+else:
+       print ("input a number please")
+
+
+
+
+tip = float(tip)
 
 print((bill*tip) + bill)
 
